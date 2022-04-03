@@ -4,5 +4,4 @@ for (var i = 0; i < numberofdrumbuttons;i++){
     document.querySelector(".drum")[i].addEventListener("click", function () {
     
     });
-
 }
