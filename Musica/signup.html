@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Welcome to Musica!</title>
+</head>
+<body>
+    <div class="signup">
+        
+        <div>
+            <h1>
+                Welcome to Musica!
+            </h1>
+        </div>
+        <form >
+            <div>
+                <label for="name">Enter name:</label>
+                <input type="text" class="inputbox"  name="myname" id="name" >
+            </div>
+            <div>
+                <label for="DOB">Date of Birth:</label>
+                <input type="date" class="inputbox" name="dob" id="DOB">
+            </div>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio"class="inputbox" gender="user_gender" id="gender" value="male">male<br>
+                <input type="radio"class="inputbox" gender="user_gender" id="gender" value="female">female<br>
+            </div>
+            <div>
+                <label for="email_or_mobile">Enter your email or mobile:</label>
+                <input type="email_or_mobile"class="inputbox" email_or_mobile="user_email_or_mobile" id="email_or_mobile">
+            </div>
+            <div>
+                <label for="address">Enter residential address:</label>
+                <input type="address" class="inputbox" address="user address" id="address">
+            </div>
+            <div>
+                <input type="checkbox" class="inputbox" checked>
+                <label for="x">I agree to all the <a href="t_and_c.html">terms and conditions</a> of Musica:</label>
+                
+            </div>
+            <br>
+            <div class="buttons">
+                <button type="submit" class="signupbtn">Sign Up</button>
+                <button type="button" class="reset">Reset</button>
+      
+              </div>
+            <hr>
+            <p class="or">OR</p>
+            <p>Do you have an account? <a href="signin.html">Sign in</a></p>
+        </form>
+    </div> 
+</body>
+</html>
